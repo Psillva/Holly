@@ -5,10 +5,10 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class MovePlayer : MonoBehaviour
-{    //Vari�veis 
+{    //Declaração de variáveis
 
-    //Pega o componente Rigidbody
-    public Rigidbody2D corpoPlayer;
+   
+    public Rigidbody2D corpoPlayer; //Pega o componente Rigidbody
     public float velocidadePlayer; // recebe velocidade do player
     public int quantidadeDePulo = 1;
     public bool taNoChao;
